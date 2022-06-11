@@ -1,1 +1,0 @@
-worker: python get_idle_time.py

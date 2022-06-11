@@ -1,5 +1,5 @@
 import sys
-import random_auto
+import move_mouse_pt
 if sys.platform == 'win32':
     from ctypes import Structure, windll, c_uint, c_int, sizeof, byref
     
@@ -27,10 +27,10 @@ if __name__ == '__main__':
     while True:
         duration = str(get_idle_duration())
         duration_f=float(duration)
-        if(duration_f>=195):
+        if(duration_f>=3000):
             count_script_call+=1
             print("")
             print("Time for other script")
-            random_auto.random_auto(count_script_call)
+            move_mouse_pt.random_auto(count_script_call)
         print('User idle for seconds = ' + duration)
-        time.sleep(30)
+        time.sleep(60)
