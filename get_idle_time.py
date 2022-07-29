@@ -27,10 +27,10 @@ if __name__ == '__main__':
     while True:
         duration = str(get_idle_duration())
         duration_f=float(duration)
-        if(duration_f>=10):
+        if(duration_f>=40):
             count_script_call+=1
             print("")
             print("Time for other script")
             move_mouse_pt.random_auto(count_script_call)
         print('User idle for seconds = ' + duration)
-        time.sleep(3)
+        time.sleep(20)
