@@ -18,7 +18,10 @@ def random_auto(count_script_call):
         now=datetime.now()
         current_time=now.strftime("%H:%M:%S")
         for i in range(0,50):
-            pyautogui.moveTo(700,i*5)
+            pyautogui.moveTo(1000,i*5)
+        for i in range(0,3):
+            pyautogui.leftClick()
+            print("Clicked at : ",current_time)
         if(count_script_call%2==0):
             for i in range(0,3):
                 pyautogui.press('shift')
