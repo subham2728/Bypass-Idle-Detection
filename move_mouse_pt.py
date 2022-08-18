@@ -1,4 +1,3 @@
-#pip install pyautogui
 import pyautogui
 import time
 from datetime import datetime
