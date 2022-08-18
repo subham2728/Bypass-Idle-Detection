@@ -24,7 +24,7 @@ else:
 if __name__ == '__main__':
     import time
     count_script_call=0
-    print("\x1B[3m \tScript created by : Subham Rouniyar \x1B[0m")
+    print("\x1B[3m" + "\tScript created by : Subham Rouniyar" +  "\x1B[0m")
     print("Do follow me on Github : https://github.com/subham2728")
     print("Also starred this repository : https://github.com/subham2728/Bypass-Idle-Detection")
     print()
