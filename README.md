@@ -3,6 +3,6 @@
 ```
 pip install -r requirements.py
 ```
-## After installing run bypass.exe located in output folder
+## After installing run bypass.exe located in the output folder
 <br><br>
 > Star this repository if it helped <3
