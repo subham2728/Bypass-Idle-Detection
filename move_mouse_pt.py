@@ -1,3 +1,4 @@
+#Individual file for moving the mouse pointer
 import pyautogui
 import time
 from datetime import datetime

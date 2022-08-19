@@ -1,1 +1,0 @@
-    print("Also starred this repository : https://github.com/subham2728/Bypass-Idle-Detection")

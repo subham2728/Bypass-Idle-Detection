@@ -1,3 +1,4 @@
+#Individual file for getting the idle time of the user
 import sys
 import move_mouse_pt
 if sys.platform == 'win32':
