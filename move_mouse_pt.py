@@ -25,7 +25,7 @@ def random_auto(count_script_call):
             for i in range(0,3):
                 pyautogui.press('shift')
                 time.sleep(1) 
-                print("Pressed Shfit Key") 
+                print("Pressed Shift Key") 
             print("")  
         else:
             for i in range(0,3):
